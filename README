@@ -1,0 +1,29 @@
+CGI::Gzip
+
+WARNING: as of v0.01 this is still alpha-quality code.  While it seems
+to run just fine for simple standalone scripts, it breaks under
+mod_perl.  Hopefully I can remove this message soon.  :-)
+
+This module is maintained by Clotho Advanced Media, www.clotho.com.
+Contact us at cpan@clotho.com.
+
+This module extends the CGI infrastructure to compresses output,
+whenever possible.  It uses IO::Zlib (a filehandle wrapper around the
+C zlib library).  If this is missing, the functionality degrades to
+the typical CGI behavior.  The programmer can selectively enable or
+disable the compression functionality at will.  This module does not
+rely on any particular server setup.  It should work anywhere that
+CGI.pm works.
+
+Apache mod_perl users may prefer the more straightforward
+implementation offered by the Apache::Compress or Apache::GzipChain
+modules.
+
+Install via the usual:
+  perl Makefile.PL
+  make
+  make test
+  make install
+
+This module is released under the GNU Public License v2.  See
+"COPYING" for details.

@@ -1,0 +1,32 @@
+2003-01-21 09:27  chris
+
+	* Gzip.pm: Improve text/html detection a little More documentation
+
+2003-01-21 09:06  chris
+
+	* Gzip.pm, README: Documentation
+
+2003-01-20 17:34  chris
+
+	* Gzip.pm: Update documentation
+
+2003-01-20 14:51  chris
+
+	* Gzip.pm: Added comments Put some global args into the Zlibwrapper
+	object
+
+2003-01-20 14:27  chris
+
+	* Gzip.pm: Set version to 0.01 (earlier was wrong) Remove debugging
+	comments
+
+2003-01-20 14:14  chris
+
+	* COPYRIGHT, Gzip.pm, MANIFEST, Makefile.PL, README, test.pl:
+	Initial revision
+
+2003-01-20 14:14  chris
+
+	* COPYRIGHT, Gzip.pm, MANIFEST, Makefile.PL, README, test.pl:
+	Initial import
+
